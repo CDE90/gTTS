@@ -1,6 +1,8 @@
 # gTTS
 
-**gTTS** (*Google Text-to-Speech*), a Python library and CLI tool to interface with Google Translate's text-to-speech API. 
+This is a fork of [gTTS](https://github.com/pndurette/gTTS) that adds support for asyncio. Async support is experimental and may not work as expected - use at your own risk.
+
+**gTTS** (_Google Text-to-Speech_), a Python library and CLI tool to interface with Google Translate's text-to-speech API.
 Write spoken `mp3` data to a file, a file-like object (bytestring) for further audio manipulation, or `stdout`.
 <https://gtts.readthedocs.io/>
 
@@ -37,7 +39,7 @@ See <https://gtts.readthedocs.io/> for documentation and examples.
 
 ### Disclaimer
 
-This project is *not* affiliated with Google or Google Cloud. Breaking upstream changes *can* occur without notice. This project is leveraging the undocumented [Google Translate](https://translate.google.com) speech functionality and is *different* from [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/).
+This project is _not_ affiliated with Google or Google Cloud. Breaking upstream changes _can_ occur without notice. This project is leveraging the undocumented [Google Translate](https://translate.google.com) speech functionality and is _different_ from [Google Cloud Text-to-Speech](https://cloud.google.com/text-to-speech/).
 
 ### Project
 
@@ -47,4 +49,4 @@ This project is *not* affiliated with Google or Google Cloud. Breaking upstream 
 
 ### Licence
 
-[The MIT License (MIT)](LICENSE) Copyright © 2014-2024 Pierre Nicolas Durette & [Contributors](https://github.com/pndurette/gTTS/graphs/contributors)
+[The MIT License (MIT)](LICENSE) Copyright © 2014-2024 Pierre Nicolas Durette, 2024 Ethan Coward & [Contributors](https://github.com/pndurette/gTTS/graphs/contributors)
